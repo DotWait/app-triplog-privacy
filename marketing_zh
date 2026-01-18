@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>旅行手记 - 您的私人离线旅行管家</title>
+    <style>
+        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1d1d1f; }
+        .hero { background: #f5f5f7; text-align: center; padding: 80px 20px; }
+        .hero img.app-icon { width: 120px; border-radius: 24px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h1 { font-size: 48px; font-weight: 700; margin-bottom: 10px; letter-spacing: -0.02em; }
+        p.subtitle { font-size: 24px; color: #86868b; margin-bottom: 40px; font-weight: 400; }
+        .download-btn { display: inline-block; background: #000; color: #fff; padding: 12px 24px; border-radius: 30px; text-decoration: none; font-weight: 600; font-size: 18px; transition: transform 0.2s; }
+        .download-btn:hover { transform: scale(1.05); }
+        
+        .features { max-width: 980px; margin: 0 auto; padding: 60px 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+        .feature-item h3 { font-size: 24px; margin-bottom: 10px; }
+        .feature-item p { color: #666; line-height: 1.6; }
+        
+        .showcase { background: #000; color: #fff; padding: 80px 20px; text-align: center; }
+        .showcase h2 { font-size: 40px; margin-bottom: 40px; }
+        .template-grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .template-card { width: 160px; height: 280px; background: #333; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #888; font-size: 14px; }
+
+        footer { text-align: center; padding: 40px; color: #86868b; font-size: 12px; }
+        footer a { color: #555; text-decoration: none; margin: 0 10px; }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="app_icon.png" alt="App Icon" class="app-icon" style="background: #ddd;"> <!-- 请替换为真实图标 -->
+        <h1>旅行手记</h1>
+        <p class="subtitle">记录你的每一段旅程，完全离线，绝对私密。</p>
+        <a href="#" class="download-btn">Download on the App Store</a>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+        <div class="feature-item">
+            <h3>🔒 隐私至上</h3>
+            <p>采用 Local-First 架构，所有数据仅存储在您的设备上。没有账号体系，没有云端上传，您的足迹只属于您自己。</p>
+        </div>
+        <div class="feature-item">
+            <h3>💰 预算控制</h3>
+            <p>告别超支焦虑。实时统计每一笔开销，通过可视化的进度条，让您对剩余预算了如指掌。</p>
+        </div>
+        <div class="feature-item">
+            <h3>🎨 极致美学</h3>
+            <p>不仅仅是记录。一键将枯燥的行程单转化为电影感长图、日记本 PDF 或社交卡片，惊艳您的朋友圈。</p>
+        </div>
+    </div>
+
+    <!-- Showcase (暗色背景展示模板) -->
+    <div class="showcase">
+        <h2>好莱坞级的分享体验</h2>
+        <div class="template-grid">
+            <div class="template-card">时间线模板</div>
+            <div class="template-card">日记本模板</div>
+            <div class="template-card">拼接长图</div>
+        </div>
+        <p style="margin-top: 40px; color: #888;">支持导出高清图片与 A4 打印级 PDF</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 DotWait. All Rights Reserved.</p>
+        <p>
+            <a href="https://dotwait.github.io/app-triplog-privacy/privacy_policy_zh.html">隐私政策</a> | 
+            <a href="https://dotwait.github.io/app-triplog-privacy/terms_of_service_zh.html">用户协议</a> | 
+            <a href="https://dotwait.github.io/app-triplog-privacy/support_zh.html">技术支持</a>
+        </p>
+    </footer>
+
+</body>
+</html>
