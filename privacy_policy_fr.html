@@ -59,7 +59,7 @@
         <strong>Information importante :</strong>
         Cette application adopte une approche <strong>Local-First</strong>.
         À l’exception des données strictement nécessaires aux achats via l’App Store,
-        aucune donnée de voyage n’est transmise à des serveurs externes.
+        aucune donnée de voyage ni donnée de localisation n’est transmise à des serveurs externes.
     </p>
 
     <h2>1. Informations collectées</h2>
@@ -79,18 +79,22 @@
             Les photos que vous sélectionnez sont conservées uniquement sur votre appareil
             et utilisées exclusivement pour la génération d’images partagées ou de fichiers PDF.
         </li>
+        <li>
+            <strong>Données de localisation :</strong>
+            Les informations de localisation (y compris la position en temps réel et les points de trajectoire) obtenues avec votre consentement sont stockées exclusivement localement sur votre appareil. Elles sont utilisées uniquement pour créer des cartes de voyage et dessiner des cartes de trajectoire — nous ne collectons, ne transmettons ni ne partageons ces données.
+        </li>
     </ul>
 
     <h2>2. Utilisation des autorisations système</h2>
     <p>
         Afin de fournir certaines fonctionnalités,
         l’application peut demander les autorisations suivantes,
-        lesquelles peuvent être révoquées à tout moment dans les réglages du système :
+        lesquelles peuvent être révoquées à tout moment dans les réglages du système (la révocation peut limiter l’accès à certaines fonctionnalités) :
     </p>
     <ul>
         <li>
             <strong>Photos :</strong>
-            Pour sélectionner des images ou enregistrer des images et des fichiers PDF exportés.
+            Pour sélectionner des images ou enregistrer des images et des fichiers PDF exportés. Nous ne scannons pas l’intégralité de votre galerie, mais accédons uniquement aux photos que vous avez sélectionnées activement.
         </li>
         <li>
             <strong>Appareil photo :</strong>
@@ -99,6 +103,14 @@
         <li>
             <strong>Notifications :</strong>
             Pour des rappels de voyage locaux, générés uniquement sur l’appareil.
+        </li>
+        <li>
+            <strong>Autorisation de localisation (seulement pendant l’utilisation, Location in Use) :</strong>
+            Demandée temporairement uniquement lors de l’utilisation de la fonction de création de cartes de voyage, afin d’obtenir la position en temps réel et de marquer les points de voyage sur la carte. Les données sont stockées exclusivement localement et l’accès à la localisation cesse immédiatement après la fermeture de l’application.
+        </li>
+        <li>
+            <strong>Autorisation de localisation (toujours autorisée, Location Always) :</strong>
+            Demandée uniquement lorsque vous activez volontairement la fonction d’enregistrement de trajectoire en arrière-plan, pour enregistrer la trajectoire du voyage et dessiner la carte de trajectoire. Les données sont stockées exclusivement localement — vous pouvez révoquer cette autorisation à tout moment dans les réglages du système pour arrêter l’enregistrement.
         </li>
     </ul>
 
@@ -110,18 +122,18 @@
         <li>
             <strong>Données de paiement :</strong>
             Toutes les transactions sont traitées par l’Apple App Store.
-            Nous ne collectons ni ne stockons aucune information de paiement sensible.
+            Nous ne collectons ni ne stockons aucune information de paiement sensible (telle que numéros de carte bancaire ou adresses de facturation).
         </li>
         <li>
             <strong>Vérification des achats :</strong>
             Apple nous fournit uniquement des informations anonymisées
-            afin de confirmer l’état de l’achat.
+            afin de confirmer l’état de l’achat, sans utilisation à d’autres fins.
         </li>
     </ul>
 
     <h2>4. Stockage et sécurité des données</h2>
     <p>
-        Les données étant stockées localement sur votre appareil,
+        Les données (y compris les données de voyage et les trajectoires de localisation) étant stockées localement sur votre appareil,
         leur sécurité dépend en grande partie des mesures de protection
         mises en place sur celui-ci.
     </p>
@@ -130,14 +142,14 @@
         Nous vous recommandons d’effectuer des sauvegardes via iCloud, iTunes,
         ou d’utiliser la fonction d’exportation.
         En cas de désinstallation de l’application,
-        toutes les données locales seront définitivement supprimées
+        toutes les données locales (y compris les données de voyage et les trajectoires de localisation) seront définitivement supprimées
         et ne pourront pas être récupérées.
     </p>
 
     <h2>5. Modifications de cette politique de confidentialité</h2>
     <p>
-        Nous nous réservons le droit de modifier cette politique si nécessaire.
-        Toute mise à jour sera communiquée au sein de l’application.
+        Nous nous réservons le droit de modifier cette politique si nécessaire (notamment pour des évolutions fonctionnelles ou réglementaires).
+        Toute mise à jour sera communiquée au sein de l’application avec un préavis suffisant et entrera en vigueur à la date indiquée dans la notification.
     </p>
 
     <h2>6. Contact</h2>
