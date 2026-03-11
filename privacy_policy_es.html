@@ -59,7 +59,7 @@
         <strong>Nota importante:</strong>
         Esta aplicación sigue un enfoque <strong>Local-First</strong>.
         Salvo la información necesaria para las compras dentro de la App Store,
-        no se cargan datos de viajes en servidores externos.
+        no se cargan datos de viajes ni datos de ubicación en servidores externos.
     </p>
 
     <h2>1. Información recopilada</h2>
@@ -76,15 +76,19 @@
             Las fotos seleccionadas por usted se almacenan solo en su dispositivo
             y se utilizan exclusivamente para generar imágenes compartidas o archivos PDF.
         </li>
+        <li>
+            <strong>Datos de ubicación:</strong>
+            La información de ubicación (incluyendo la posición en tiempo real y los puntos de trayectoria) obtenida con su consentimiento se almacena exclusivamente de forma local en su dispositivo. Se utiliza únicamente para crear mapas de viaje y dibujar mapas de trayectoria — no recopilamos, cargamos ni compartimos estos datos de ubicación.
+        </li>
     </ul>
 
     <h2>2. Uso de permisos del sistema</h2>
     <p>Para ofrecer determinadas funciones, la aplicación puede solicitar los siguientes permisos,
-       los cuales pueden revocarse en cualquier momento desde la configuración del sistema:</p>
+       los cuales pueden revocarse en cualquier momento desde la configuración del sistema (la revocación puede limitar el uso de algunas funciones):</p>
     <ul>
         <li>
             <strong>Fotos:</strong>
-            Para seleccionar imágenes o guardar imágenes y documentos PDF exportados.
+            Para seleccionar imágenes o guardar imágenes y documentos PDF exportados. No escaneamos toda su galería, solo accedemos a las fotos que usted selecciona activamente.
         </li>
         <li>
             <strong>Cámara:</strong>
@@ -95,6 +99,14 @@
             Para recordatorios locales relacionados con los viajes,
             que se generan únicamente en el dispositivo.
         </li>
+        <li>
+            <strong>Permiso de ubicación (solo durante el uso, Location in Use):</strong>
+            Se solicita temporalmente solo al utilizar la función de creación de mapas de viaje, para obtener la posición en tiempo real y marcar los puntos del viaje en el mapa. Los datos se almacenan exclusivamente de forma local y el acceso a la ubicación cesa inmediatamente después de cerrar la aplicación.
+        </li>
+        <li>
+            <strong>Permiso de ubicación (siempre permitido, Location Always):</strong>
+            Se solicita solo cuando usted activa voluntariamente la función de registro de trayectoria en segundo plano, para registrar la trayectoria del viaje y dibujar el mapa de trayectoria. Los datos se almacenan exclusivamente de forma local — usted puede revocar este permiso en cualquier momento desde la configuración del sistema para detener el registro.
+        </li>
     </ul>
 
     <h2>3. Servicios de terceros y compras dentro de la app</h2>
@@ -103,18 +115,18 @@
         <li>
             <strong>Datos de pago:</strong>
             Todas las transacciones se procesan a través de Apple App Store.
-            No recopilamos ni almacenamos información de pago sensible.
+            No recopilamos ni almacenamos información de pago sensible (como números de tarjetas de crédito o direcciones de facturación).
         </li>
         <li>
             <strong>Verificación de compras:</strong>
             Apple nos proporciona únicamente información anónima
-            para confirmar el estado de la compra.
+            para confirmar el estado de la compra, sin usarla para otros fines.
         </li>
     </ul>
 
     <h2>4. Almacenamiento y seguridad de los datos</h2>
     <p>
-        Dado que los datos se almacenan localmente en su dispositivo,
+        Dado que los datos (incluyendo datos de viajes y trayectorias de ubicación) se almacenan localmente en su dispositivo,
         la seguridad de la información depende en gran medida
         de las medidas de protección de su propio dispositivo.
     </p>
@@ -122,14 +134,14 @@
         <strong>Copia de seguridad:</strong>
         Recomendamos realizar copias de seguridad mediante iCloud, iTunes
         o utilizar la función de exportación.
-        Al desinstalar la aplicación, todos los datos locales se eliminarán de forma permanente
+        Al desinstalar la aplicación, todos los datos locales (incluyendo datos de viajes y trayectorias de ubicación) se eliminarán de forma permanente
         y no podrán recuperarse.
     </p>
 
     <h2>5. Cambios en esta Política de Privacidad</h2>
     <p>
-        Nos reservamos el derecho de actualizar esta política cuando sea necesario.
-        Cualquier cambio será comunicado dentro de la aplicación.
+        Nos reservamos el derecho de actualizar esta política cuando sea necesario (por ejemplo, por cambios funcionales o normativos).
+        Cualquier cambio será comunicado dentro de la aplicación con un preaviso suficiente y entrará en vigor a partir de la fecha indicada en la notificación.
     </p>
 
     <h2>6. Contacto</h2>
