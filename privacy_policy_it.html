@@ -59,7 +59,7 @@
         <strong>Avviso importante:</strong>
         L’Applicazione adotta un approccio <strong>Local-First</strong>.
         Ad eccezione dei dati necessari per le transazioni tramite App Store,
-        nessun dato di viaggio viene trasmesso a server esterni.
+        nessun dato di viaggio né dato di posizione viene trasmesso a server esterni.
     </p>
 
     <h2>1. Informazioni raccolte</h2>
@@ -81,18 +81,22 @@
             e utilizzate esclusivamente per la generazione di immagini condivise
             o documenti PDF.
         </li>
+        <li>
+            <strong>Dati di posizione:</strong>
+            Le informazioni di posizione (inclusa la posizione in tempo reale e i punti di traiettoria) ottenute con il consenso dell’utente sono archiviate esclusivamente in locale sul dispositivo. Vengono utilizzate solo per creare mappe di viaggio e disegnare mappe di traiettoria — non raccogliamo, trasmettiamo né condividiamo tali dati.
+        </li>
     </ul>
 
     <h2>2. Utilizzo delle autorizzazioni di sistema</h2>
     <p>
         Per fornire determinate funzionalità,
         l’Applicazione può richiedere le seguenti autorizzazioni,
-        revocabili in qualsiasi momento dalle impostazioni di sistema:
+        revocabili in qualsiasi momento dalle impostazioni di sistema (la revoca può limitare l’uso di alcune funzionalità):
     </p>
     <ul>
         <li>
             <strong>Foto:</strong>
-            Per selezionare immagini o salvare immagini e file PDF esportati.
+            Per selezionare immagini o salvare immagini e file PDF esportati. Non scansioniamo l’intera galleria, ma accediamo solo alle immagini selezionate dall’utente.
         </li>
         <li>
             <strong>Fotocamera:</strong>
@@ -102,6 +106,14 @@
             <strong>Notifiche:</strong>
             Per promemoria di viaggio locali,
             generati ed elaborati esclusivamente sul dispositivo.
+        </li>
+        <li>
+            <strong>Posizione (solo durante l’uso, Location in Use):</strong>
+            Richiesta temporaneamente solo quando si utilizza la funzione di creazione di mappe di viaggio, per ottenere la posizione in tempo reale e marcare i punti del viaggio sulla mappa. I dati sono archiviati esclusivamente in locale e l’accesso alla posizione si interrompe dopo la chiusura dell’Applicazione.
+        </li>
+        <li>
+            <strong>Posizione (sempre consentita, Location Always):</strong>
+            Richiesta solo quando l’utente attiva volontariamente la funzione di registrazione della traiettoria in background, per registrare la traiettoria del viaggio e disegnare la mappa di traiettoria. I dati sono archiviati esclusivamente in locale — l’utente può revocare questa autorizzazione in qualsiasi momento dalle impostazioni di sistema per interrompere la registrazione.
         </li>
     </ul>
 
@@ -114,18 +126,18 @@
         <li>
             <strong>Dati di pagamento:</strong>
             Tutte le transazioni sono gestite tramite Apple App Store.
-            Non raccogliamo né conserviamo dati di pagamento sensibili.
+            Non raccogliamo né conserviamo dati di pagamento sensibili (come numeri di carta di credito o indirizzi di fatturazione).
         </li>
         <li>
             <strong>Verifica degli acquisti:</strong>
             Apple ci fornisce esclusivamente informazioni anonime
-            per confermare lo stato dell’acquisto.
+            per confermare lo stato dell’acquisto, senza uso per altri scopi.
         </li>
     </ul>
 
     <h2>4. Conservazione e sicurezza dei dati</h2>
     <p>
-        Poiché i dati sono archiviati localmente sul dispositivo,
+        Poiché i dati (inclusi dati di viaggio e traiettoria di posizione) sono archiviati localmente sul dispositivo,
         la loro sicurezza dipende in larga misura
         dalle misure di protezione adottate dall’utente sul proprio dispositivo.
     </p>
@@ -134,15 +146,15 @@
         Si consiglia di effettuare backup tramite iCloud, iTunes
         o utilizzando la funzione di esportazione.
         In caso di disinstallazione dell’Applicazione,
-        tutti i dati locali verranno eliminati in modo permanente
+        tutti i dati locali (inclusi dati di viaggio e traiettoria di posizione) verranno eliminati in modo permanente
         e non potranno essere recuperati.
     </p>
 
     <h2>5. Modifiche all’Informativa sulla Privacy</h2>
     <p>
         Ci riserviamo il diritto di aggiornare la presente informativa,
-        qualora necessario.
-        Eventuali modifiche saranno comunicate all’interno dell’Applicazione.
+        qualora necessario (ad esempio per modifiche funzionali o normative).
+        Eventuali modifiche saranno comunicate all’interno dell’Applicazione con preavviso sufficiente e entreranno in vigore dalla data indicata nella notifica.
     </p>
 
     <h2>6. Contatti</h2>
